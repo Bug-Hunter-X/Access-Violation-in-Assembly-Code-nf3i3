@@ -1,0 +1,1 @@
+mov eax, [ebx + 4*ecx] ;This instruction might cause an access violation if the address calculated by ebx + 4*ecx is outside the valid memory range.
